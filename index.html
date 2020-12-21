@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Nicolas Malgat</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<body>
+
+    <main>
+        <div class="container" id="presentation">
+            <h1>
+                Salut, je suis Nicolas ;)
+                <!-- <span class="material-icons md-72">emoji_emotions</span> -->
+            </h1>
+
+            <p>Je fais du développement sous python et de l'intelligence artificielle.</p>
+
+            <div class="list">
+                <a href="pdf/CV_2019_Nicolas_Malgat.pdf" target="_blank" class="btn">
+                    <span class="material-icons">attach_file</span>
+                    Mon CV
+                </a>
+            </div>
+
+            <hr>
+
+            <div class="list">
+                <a href="mailto:nicolas.malgat@hotmail.com" class="btn">Mail</a>
+                <a href="tel:+33768631821" class="btn">Téléphone</a>
+                <a href="https://twitter.com/MalgatN" target="blank" class="btn">Twitter</a>
+                <a href="https://www.linkedin.com/in/nicolas-malgat-99192117a/" target="blank" class="btn">Linkedin</a>
+                <a href="https://github.com/Nicolas-Malgat" target="blank" class="btn">Github</a>
+            </div>
+
+            <footer>
+                <a href="#competences">
+                    <span class="material-icons md-72">keyboard_arrow_down</span>
+                </a>
+            </footer>
+
+        </div>
+
+        <div class="container" id="competences">
+
+            <h1>
+                Mes compétences
+            </h1>
+
+            <div id="language">
+                <img src="img/iconfinder_181_Java_logo_logos_4373217.png" alt="">
+                <img src="img/iconfinder_267_Python_logo_4375050.png" alt="">
+                <img src="img/iconfinder_badge-css-3_317756.png" alt="">
+                <img src="img/iconfinder_HTML_Logo_65687.png" alt="">
+                <img src="img/1200px-Oracle_SQL_Developer_logo.svg.png" alt="">
+            </div>
+
+            <p class="text">
+                Je suis détenteur d'un DUT informatique, en formation développeur IA avec <a target="blank" id="simplon"
+                    href="https://simplon.co">Simplon.co</a> et en alternance au <a target="blank" id="credit-agricole"
+                    href="https://www.credit-agricole.fr/">Crédit Agricole</a>.
+            </p>
+            <p class="text">
+                J'ai participé à plusieurs projets dans plusieurs langages (Java, C, Python). J'ai travaillée sur
+                plusieurs sites web, interfaces applicatives et la conception de leur base de données. Aujourd'hui je
+                poursuis ma montée en compétence avec l'intelligence artificielle et la manipulation des données.
+            </p>
+
+            <hr>
+
+            <p>Mes formateurs sont aussi des développeurs aguerris:</p>
+            <ul id="formateur">
+                <li>
+                    <a target="blank" href="https://www.linkedin.com/in/davidrigaudie/">David Rigaudie</a> formateur
+                    python, expert sur Django et fondateur de <a target="blank"
+                        href="https://www.linkedin.com/company/itarverne/">ITArverne</a>.
+                </li>
+                <li>
+                    <a target="blank" href="https://www.linkedin.com/in/thomas-bailly-b828a338/">Thomas Bailly</a>
+                    formateur .NET et Azure et président de l'entreprise <a target="blank"
+                        href="https://www.accolades.io/">Accolades</a>. Il apporte son expertise en Intelligence
+                    Artificielle.
+                </li>
+            </ul>
+
+
+            <footer>
+                <a href="#projet1">
+                    <span class="material-icons md-72">keyboard_arrow_down</span>
+                </a>
+            </footer>
+        </div>
+
+        <div class="container" id="projet1">
+
+            <h1>Le projet Immothep</h1>
+
+            <div class="row">
+                <div class="column">
+
+                    <p class="text">
+                        "La société Immothep, nouveau fleuron de l'immobilier Français, souhaite créer un module
+                        d'estimation de biens basé sur l'intelligence artificielle pour enrichir sa plateforme et
+                        acquérir de nouveaux acheteurs/vendeurs."
+                    </p>
+
+                    <p class="text">
+                        Lors de ce projet nous avons travaillé avec des notebooks, nous avons filtré puis entrainé un
+                        modèle de régression linéaire à estimer la valeur d'un appartement et d'une maison. Le modèle
+                        peut être appelé par une API via un serveur local.
+                    </p>
+
+                    <p>
+                        Le code de ce projet est disponible <a href="https://github.com/Nicolas-Malgat/Immothep"
+                            target="_blank" rel="noopener noreferrer">ici</a>.
+                    </p>
+                </div>
+                <div class="column">
+                    <a href="img/immothep.jpg" target="_blank" rel="noopener noreferrer">
+                        <img src="img/immothep.jpg" alt="Immothep illustration">
+                    </a>
+                    <a href="img/graphique_valeur_appartement.png" target="_blank" rel="noopener noreferrer">
+                        <img src="img/graphique_valeur_appartement.png" alt="Immothep graphique">
+                    </a>
+                </div>
+            </div>
+
+
+
+            <footer>
+                <a href="#projet2">
+                    <span class="material-icons md-72">keyboard_arrow_down</span>
+                </a>
+            </footer>
+        </div>
+
+        <div class="container" id="projet2">
+
+            <h1>Le projet SmartTweet</h1>
+
+            <div class="row">
+                <div class="column">
+
+                    <p class="text">
+                        "Vous êtes contactés par une entreprise qui a besoin d’évaluer les premières réactions liées à
+                        l’annonce de leur produit. Leur principal canal de communication est twitter. Choisissez votre
+                        produit et le hashtag qui lui ai associé"
+                    </p>
+
+                    <p class="text">
+                        Ce projet a nécessité l'utilisation de l'API twitter et <a
+                            href="https://azure.microsoft.com/fr-fr/services/cognitive-services/text-analytics/"
+                            target="_blank" rel="noopener noreferrer">l'analyse de sentiment de Azure</a> via une autre
+                        API. Le tout est enregistré dans une base de donnée et affiché sur une page HTML utilisant vueJS.
+                        Notre choix a été d'afficher les différents pourcentages d'avis positifs, négatifs et neutre à
+                        l'aide d'un diagramme circulaire.
+                    </p>
+
+                    <p>
+                        Le code de ce projet est disponible <a href="https://github.com/SmartTweet/SmartTweet"
+                            target="_blank" rel="noopener noreferrer">ici</a>.
+                    </p>
+                </div>
+                <div class="column">
+                    <a href="img/smart_tweet.png" target="_blank" rel="noopener noreferrer">
+                        <img src="img/smart_tweet.png" alt="Vue de la page SmartTweet">
+                    </a>
+                    <a href="img/graphique_circulaire.png" target="_blank" rel="noopener noreferrer">
+                        <img src="img/graphique_circulaire.png" alt="graphique circulaire">
+                    </a>
+                </div>
+            </div>
+
+            <footer>
+                <a href="#presentation">
+                    <span class="material-icons md-72">keyboard_arrow_up</span>
+                </a>
+            </footer>
+        </div>
+
+        <footer>
+            <p>
+                <a href="https://github.com/Nicolas-Malgat/portfolio" target="_blank" rel="noopener noreferrer">Lien
+                    vers le github de ce portfolio</a>
+            </p>
+            <p>Copyrigth © 2020 - Nicolas Malgat</p>
+        </footer>
+    </main>
+</body>
+
+</html>
